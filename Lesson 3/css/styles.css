@@ -1,0 +1,70 @@
+/*
+ Color Pallete
+~ Imperial Red - #E63946;
+~ Honeydew - #F1FAEE;
+~ Powder Blue - #A8DADC;
+~ Celadon Blue - #457B9D;
+~ Prussian Blue - #1D3557;
+*/
+
+
+/* Global styles
+----------------------------- */
+body {
+	color: #1D3557;
+}
+
+img {
+	width: 300px;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: purple;
+}
+a:active {
+	color: white;
+}
+
+
+/* Profile
+----------------------------- */
+header {
+	background-color: #457B9D;
+}
+
+/* Projects
+----------------------------- */
+.projects {
+	background: #A8DADC; 
+ }
+ .projects a {
+ }
+ .projects .btn{
+ 	color: white;
+ 	background-color: #1D3557;
+ 	text-decoration: none;
+ 	padding: 8px;
+ 	border-radius: 4px;
+ }
+.projects a:hover {
+	background: rgba(29, 53, 87, 80%);
+}
+/* Work Experience
+----------------------------- */
+.work-experience {
+	background: #F1FAEE;
+}
+
+/* Education
+----------------------------- */
+
+/* Contact Info
+----------------------------- */
+footer {
+	background-color: #E63946;
+	
+}
