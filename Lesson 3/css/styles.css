@@ -10,8 +10,20 @@
 
 /* Global styles
 ----------------------------- */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *after {
+	box-sizing: inherit;
+}
+
 body {
 	color: #1D3557;
+	margin: 0 ;
+	padding: 0;
+	font-family: 'Nanum Pen Script', cursive; 
+	font-size: 30px; 
+	line-height: 1.5;
 }
 
 img {
@@ -28,6 +40,27 @@ a:hover {
 a:active {
 	color: white;
 }
+h1 {
+	font-size: 90px;
+	line-height: .5;
+	text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 5px lightblue , -1px 0 white, 0 1px white, 1px 0 white, 0 -1px ;
+}
+h2 {
+	
+	font-size: 45px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,2px 2px 5px white;
+}
+h1, h2 {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 400;
+
+}
+.content-wrap {
+	 width: 800px;
+	 margin: 0 auto;
+	 padding: 60px 0;
+}
+
 
 
 /* Profile
@@ -41,7 +74,7 @@ header {
 .projects {
 	background: #A8DADC; 
  }
- .projects a {
+ .projects a { 
  }
  .projects .btn{
  	color: white;
@@ -49,15 +82,34 @@ header {
  	text-decoration: none;
  	padding: 8px;
  	border-radius: 4px;
+ 	display: inline-block;
  }
 .projects a:hover {
 	background: rgba(29, 53, 87, 80%);
 }
+.project-item {
+	overflow: hidden;
+	border-bottom: 1px dashed #1D3557;
+	padding: 25px 0;
+}
+
+.project-item img {
+	float: left;
+	margin-right: 20px; 
+	padding-left: 20px;
+}
+
+.project-item h3 {
+	margin-top: 0;
+}
+
 /* Work Experience
 ----------------------------- */
 .work-experience {
 	background: #F1FAEE;
 }
+
+
 
 /* Education
 ----------------------------- */
